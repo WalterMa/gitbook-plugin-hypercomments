@@ -20,7 +20,7 @@ Add the plugin to your book's configuration `book.json` and set `wid` required o
         "hypercomments2"
     ],
     "pluginsConfig": {
-        "hypercomments": {
+        "hypercomments2": {
             "wid": XXXXX
         }
     }
