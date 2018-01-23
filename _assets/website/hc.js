@@ -11,7 +11,7 @@ require(['gitbook', 'jquery'], function (gitbook, $) {
             if ('HC' in window) {
                 clearInterval(interval);
 
-                if(!$('#hypercomments_widget').size()){
+                if(!$('#hypercomments_widget').length){
                     var div = $("<div>", {
                         "id": "hypercomments_widget"
                     });
